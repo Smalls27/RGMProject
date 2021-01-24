@@ -9,3 +9,7 @@ body {
 div.card-header {
     background-color: rgba(116, 148, 207, .5);
 }
+
+a {
+    color: white;
+}
