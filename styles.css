@@ -1,0 +1,11 @@
+.moreSpace {
+    margin-top: 12%;
+}
+
+body {
+    background-color: rgb(116, 148, 207);
+}
+
+div.card-header {
+    background-color: rgba(116, 148, 207, .5);
+}
