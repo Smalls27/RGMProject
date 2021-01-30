@@ -6,10 +6,65 @@ body {
     background-color: rgb(116, 148, 207);
 }
 
-div.card-header {
+.head {
     background-color: rgba(116, 148, 207, .5);
 }
 
+.slack {
+    color: black;
+}
+
+.moreMargin {
+    margin-left: 10%;
+}
+
+.space1 {
+    margin-top: 60px;
+}
+
+.space2 {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: rgba(116, 148, 207, 0.5);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(7, 71, 110, 0.5);
+
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: white;
+}
+
+.color {
+    background-color: rgba(116, 148, 207, 0.5);
+}
+
+.color:hover {
+    background-color: rgba(0, 50, 143, 0.5);
+}
+
+.blue {
+    background-color: rgba(116, 148, 207, 0.5);
+}
+
+.back {
+    background-color: white;
+    color: black;
+}
+
+.text-dark {
+    color: black;
+}
+
 a {
-    color: white;
+    color: cadetblue;
+}
+
+.navbar-dark {
+    background-color: rgb(116, 148, 207);
 }
