@@ -78,3 +78,29 @@ a {
 .backgt {
     background-color: rgb(116, 148, 207);
 }
+
+.biggerLetters {
+    font-size: 2em;
+}
+
+.moreMargin {
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.space2 {
+    margin-top: 100px;
+}
+
+.left {
+    margin: auto;
+}
+
+.bigLogo {
+    font-size: 3rem;
+}
+
+.house {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq7B6Nik9WMWIq2OFKc6z1ll8tXTyQMIPGnw&usqp=CAU");
+    background-repeat: no-repeat;
+}
