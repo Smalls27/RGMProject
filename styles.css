@@ -2,6 +2,12 @@
     margin-top: 12%;
 }
 
+.moreSpace1 {
+    margin-top: 80px;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
 body {
     background-color: rgb(116, 148, 207);
 }
@@ -20,6 +26,8 @@ body {
 
 .space1 {
     margin-top: 60px;
+    animation-name: lefter;
+    animation-duration: 1.5s;
 }
 
 .space2 {
@@ -72,7 +80,7 @@ a {
 .card1 {
     border: none;
     box-shadow: 0px 0px 15px rgb(255, 255, 255);
-    background-color: rgb(116, 148, 207);
+    background-color: rgba(116, 148, 207, .5);
 }
 
 .backgt {
@@ -101,6 +109,28 @@ a {
 }
 
 .house {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq7B6Nik9WMWIq2OFKc6z1ll8tXTyQMIPGnw&usqp=CAU");
+    background-image: url("https://i.pinimg.com/originals/c7/a3/fc/c7a3fc2ea33276ac6e2ff47ecc7b4d94.jpg");
     background-repeat: no-repeat;
+}
+
+.house1 {
+    background-image: url("https://i.pinimg.com/originals/19/9f/59/199f59651bb9f0a99b54465b0c927688.jpg");
+}
+
+.house2 {
+    background-image: url("https://i.pinimg.com/originals/ba/27/18/ba2718fbbff1596117f5d896f8cc96a6.jpg");
+}
+
+.house3 {
+    background-image: url("https://www.medhatlodge.com/wp-content/uploads/careers-header.jpg");
+}
+
+@keyframes fade {
+    from {margin-top: 0px;}
+    to {margin-top: 80px;}
+}
+
+@keyframes lefter {
+    from {margin-top: 0px;}
+    to {margin-top: 60px; }
 }
