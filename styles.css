@@ -119,6 +119,7 @@ a {
 
 .house2 {
     background-image: url("https://i.pinimg.com/originals/ba/27/18/ba2718fbbff1596117f5d896f8cc96a6.jpg");
+    background-attachment: fixed;
 }
 
 .house3 {
